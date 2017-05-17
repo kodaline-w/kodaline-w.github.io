@@ -1,0 +1,28 @@
+window.onload=function(){
+	new Vue({
+		el:'body',
+		data:{
+			msgData:[
+			{
+				title:'node.js入门的一些小技巧',
+				content:'前端开发到底要不要学node.js，学习了它会有怎样的提高',
+				time:'2017-3-16'
+			},
+			{
+				title:'node.js入门的一些小技巧',
+				content:'前端开发到底要不要学node.js，学习了它会有怎样的提高',
+				time:'2017-3-16'
+			},
+			{
+				title:'node.js入门的一些小技巧',
+				content:'前端开发到底要不要学node.js，学习了它会有怎样的提高',
+				time:'2017-3-16'
+			},
+			{
+				title:'node.js入门的一些小技巧',
+				content:'前端开发到底要不要学node.js，学习了它会有怎样的提高',
+				time:'2017-3-16'
+			}]
+		}
+	})
+}
