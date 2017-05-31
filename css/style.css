@@ -19,7 +19,7 @@ body {
   color: #848484;
   font-weight: 300;
   overflow-x: hidden;
-}
+  }
 body.fh5co-offcanvas {
   overflow: hidden;
 }
@@ -1281,7 +1281,7 @@ figure {
 }
 
 #offcanvas-menu {
-  position: fixed;
+  position: absolute;
   top: 0;
   bottom: 0;
   z-index: 99;

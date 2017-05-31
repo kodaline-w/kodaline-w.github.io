@@ -16,6 +16,7 @@
 	<link rel="stylesheet" href="css/superfish.css">
 	<link rel="stylesheet" href="css/style.css">
 	<script src="js/modernizr-2.6.2.min.js"></script>
+	
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<![endif]-->
@@ -284,6 +285,7 @@
 	</div>
 	<!-- END fh5co-page -->
 	</div>
+
 	<!-- END fh5co-wrapper -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
@@ -300,5 +302,18 @@
 	<!-- Main JS -->
 	<script src="js/main.js"></script>
 	</body>
+	<script>
+		$(function(){
+			var preHandler = function(e){e.preventDefault();}
+			$('.js-fh5co-nav-toggle').on('click',function(){
+				document.addEventListener('touchmove', preHandler, false);
+			})
+			$('.fh5co-hero').on('click',function(){
+				 
+				document.addEventListener('touchmove', preHandler, false);
+				document.removeEventListener('touchmove', preHandler, false);
+			})
+		})
+	</script>
 </html>
 
