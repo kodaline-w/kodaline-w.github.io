@@ -125,5 +125,18 @@
 	<!-- Main JS -->
 	<script src="js/main.js"></script>
 	</body>
+	<script>
+		$(function(){
+			var preHandler = function(e){e.preventDefault();}
+			$('.js-fh5co-nav-toggle').on('click',function(){
+				document.addEventListener('touchmove', preHandler, false);
+			})
+			$('.fh5co-hero').on('click',function(){
+				 
+				document.addEventListener('touchmove', preHandler, false);
+				document.removeEventListener('touchmove', preHandler, false);
+			})
+		})
+	</script>
 </html>
 
