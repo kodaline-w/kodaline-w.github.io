@@ -26,6 +26,12 @@ window.onload=function(){
 				content:'使用geihub建立博客对于很多人来说有很大帮助',
 				time:'2017-4-15',
 				href:'#'
+			},
+			{
+				title:'ES6小入门',
+				content:'随着时间推移，ES6马上要成了标配',
+				time:'2017-4-19',
+				href:'https://github.com/kodaline-w/Artical/blob/master/ES6%E5%85%A5%E9%97%A8.mdown'
 			}]
 		}
 	})
